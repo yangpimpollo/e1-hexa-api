@@ -1,0 +1,125 @@
+proyect
+    gitlab
+    app
+    bootstrap
+    config
+    database
+    docs
+    node_modules
+    public
+    request
+    resources
+    routes
+    scripts
+    src
+    storage
+    stubs
+    tests
+    vendor
+
+
+
+    src
+        app
+            client
+                aplication
+                    dtos
+                        request
+                            DeleteCycleTemplateRequestDto.php
+                            GetCycleTemplateRequestDto.php
+                            ShowCycleTemplateRequestDto.php
+                            StoreCycleTemplateRequestDto.php
+                            UpdateCycleTemplateRequestDto.php
+                        response
+                    useCases
+                        list
+                        DeleteCycleTemplateUseCase.php
+                        GetCycleTemplateUseCase.php
+                        ShowCycleTemplateUseCase.php
+                        StoreCycleTemplateUseCase.php
+                        UpdateCycleTemplateUseCase.php
+                domain
+                    dtos
+                        list
+                        showByIdCycleTemplatteDto.php
+                    entities
+                        deleteCycleTemplateEntity.php
+                        StoreCycleTemplateEntity.php
+                        UpdateCycleTemplateEntity.php
+                    repositories
+                        read
+                            cycleTemplateListRepository
+                            cycleTemplateReadRepository
+                        validator
+                            cycleTemplateValidatorRepository
+                        write
+                            cycleTemplateWriteRepository
+                infraestructure
+                    http
+                        controllers
+                        mappers
+                            list
+                            DeleteCycleTemplateMapper.php
+                            GetCycleTemplateMapper.php
+                            ShowCycleTemplateMapper.php
+                            StoreCycleTemplateMapper.php
+                            UpdateCycleTemplateMapper.php                            
+                        responses
+                        routes
+                        validator
+                            DeleteCycleTemplateRequestValidator.php
+                            GetCycleTemplateRequestValidator.php
+                            ShowCycleTemplateRequestValidator.php
+                            StoreCycleTemplateRequestValidator.php
+                            UpdateCycleTemplateRequestValidator.php
+                    persistences
+                        read
+                            cycleTemplateListQueryBuilder.php
+                            cycleTemplateReadQueryBuilder.php
+                        validator
+                        write
+                    providers
+                        CycleTemplateProvider.php
+                        index.php
+            contracts/user
+            modulesV2
+                academic
+                auth
+                catalog
+                    course
+                    subtopic
+                        aplication
+                            dtos
+                            useCases
+                        domain
+                        infraestructure
+                        tests
+                    topic
+                employee
+                user
+        bootstrap
+        connections
+        http
+            exceptions
+            responses
+            controller.php
+        shared
+            aplication
+            domain
+            infraestructure
+        utils
+            datatable
+            helpers
+
+
+
+
+
+
+
+arquitectura hexagonal
+ci/cd pipelines
+usar miro technical discovery
+
+
+throw new InvalidArgumentException()
