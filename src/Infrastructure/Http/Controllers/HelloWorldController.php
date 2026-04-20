@@ -5,7 +5,7 @@ namespace yangpimpollo\Infrastructure\Http\Controllers;
 use Illuminate\Http\JsonResponse;
 use yangpimpollo\Application\UseCases\HelloWorld;
 
-class GetHelloWorld
+class HelloWorldController
 {
     public function __construct(
         private readonly HelloWorld $useCase
