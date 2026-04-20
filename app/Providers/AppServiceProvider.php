@@ -11,7 +11,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->bind(
+            \yangpimpollo\Domain\Repository\BookRepositoryInterface::class,
+            \yangpimpollo\Infrastructure\Persistence\EloquentBookRepository::class
+        );
     }
 
     /**
