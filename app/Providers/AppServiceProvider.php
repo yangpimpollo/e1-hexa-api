@@ -6,20 +6,11 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     */
     public function register(): void
     {
-        $this->app->bind(
-            \yangpimpollo\Domain\Repository\BookRepositoryInterface::class,
-            \yangpimpollo\Infrastructure\Persistence\EloquentBookRepository::class
-        );
+        // 
     }
 
-    /**
-     * Bootstrap any application services.
-     */
     public function boot(): void
     {
         //
